@@ -6,6 +6,8 @@ GLFWwindow* StartGLFW();
 int main(){
     GLFWwindow* window = StartGLFW();
 
+    std::cout<<"Works!"<<std::endl;
+
     while(!glfwWindowShouldClose(window)){
 
         glfwSwapBuffers(window);
